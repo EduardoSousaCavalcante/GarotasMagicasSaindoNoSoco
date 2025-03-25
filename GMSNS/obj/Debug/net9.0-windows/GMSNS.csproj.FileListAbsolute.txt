@@ -1,0 +1,14 @@
+C:\Users\Virtual Vida\GMSNS\bin\Debug\net9.0-windows\GMSNS.exe
+C:\Users\Virtual Vida\GMSNS\bin\Debug\net9.0-windows\GMSNS.deps.json
+C:\Users\Virtual Vida\GMSNS\bin\Debug\net9.0-windows\GMSNS.runtimeconfig.json
+C:\Users\Virtual Vida\GMSNS\bin\Debug\net9.0-windows\GMSNS.dll
+C:\Users\Virtual Vida\GMSNS\bin\Debug\net9.0-windows\GMSNS.pdb
+C:\Users\Virtual Vida\GMSNS\obj\Debug\net9.0-windows\GMSNS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Virtual Vida\GMSNS\obj\Debug\net9.0-windows\GMSNS.AssemblyInfoInputs.cache
+C:\Users\Virtual Vida\GMSNS\obj\Debug\net9.0-windows\GMSNS.AssemblyInfo.cs
+C:\Users\Virtual Vida\GMSNS\obj\Debug\net9.0-windows\GMSNS.csproj.CoreCompileInputs.cache
+C:\Users\Virtual Vida\GMSNS\obj\Debug\net9.0-windows\GMSNS.dll
+C:\Users\Virtual Vida\GMSNS\obj\Debug\net9.0-windows\refint\GMSNS.dll
+C:\Users\Virtual Vida\GMSNS\obj\Debug\net9.0-windows\GMSNS.pdb
+C:\Users\Virtual Vida\GMSNS\obj\Debug\net9.0-windows\GMSNS.genruntimeconfig.cache
+C:\Users\Virtual Vida\GMSNS\obj\Debug\net9.0-windows\ref\GMSNS.dll
