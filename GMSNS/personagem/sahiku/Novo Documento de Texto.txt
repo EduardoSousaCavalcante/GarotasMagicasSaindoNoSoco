@@ -1,0 +1,32 @@
+/ProjetoJogo
+│
+├── /Characters
+│   ├── /Player                  # Pasta do personagem Jogador
+│   │   ├── PlayerController.cs   # Script de controle e movimento do jogador
+│   │   ├── PlayerAnimations.cs   # Script para gerenciar animações do jogador
+│   │   ├── PlayerCombat.cs       # Lógica de combate do jogador (ataques, combos, etc.)
+│   │   ├── PlayerHealth.cs       # Lógica de saúde do jogador (vida, dano, morte)
+│   │   ├── /Sprites              # Sprites específicos do jogador (imagens, poses, etc.)
+│   │   ├── /Animations           # Animações específicas do jogador (movimentos, ataques)
+│   │   ├── /Sounds               # Sons específicos do jogador (impactos, gritos, etc.)
+│   │   └── PlayerData.cs         # Dados do personagem (atributos, habilidades, etc.)
+│   │
+│   ├── /Enemy1                  # Pasta do inimigo 1
+│   │   ├── EnemyController.cs    # Script de controle e movimento do inimigo
+│   │   ├── EnemyAnimations.cs    # Script de animações do inimigo
+│   │   ├── EnemyCombat.cs        # Lógica de combate do inimigo
+│   │   ├── EnemyHealth.cs        # Lógica de saúde do inimigo
+│   │   ├── /Sprites              # Sprites específicos do inimigo
+│   │   ├── /Animations           # Animações do inimigo
+│   │   ├── /Sounds               # Sons do inimigo
+│   │   └── EnemyData.cs          # Dados do inimigo (atributos, habilidades, etc.)
+│   │
+│   └── /Enemy2                  # Pasta do inimigo 2 (exemplo de outro inimigo)
+│       ├── EnemyController.cs    # Script de controle e movimento do inimigo 2
+│       ├── EnemyAnimations.cs    # Animações do inimigo 2
+│       ├── EnemyCombat.cs        # Lógica de combate do inimigo 2
+│       ├── EnemyHealth.cs        # Saúde do inimigo 2
+│       ├── /Sprites              # Sprites do inimigo 2
+│       ├── /Animations           # Animações do inimigo 2
+│       ├── /Sounds               # Sons do inimigo 2
+│       └── EnemyData.cs          # Dados do inimigo 2
