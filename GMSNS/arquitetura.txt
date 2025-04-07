@@ -1,0 +1,61 @@
+/GMSNS
+│
+├── /Assets
+│   ├── /Sprites                          # Spritesheets e imagens dos personagens, arenas, objetos, etc.
+│   │   ├── /Personagens                  # Cada personagem tem sua própria pasta com suas animações e sprites
+│   │   │   ├── /Sahiku                   # Pasta específica para o personagem Sahiku
+│   │   │   │   ├── Sahiku_Spritesheet.png   # Spritesheet do personagem (ex: movimentação, ataque)
+│   │   │   │   ├── /Animações            # Pasta de animações de Sahiku
+│   │   │   │   │   ├── Ataque.png        # Frames para animação de ataque
+│   │   │   │   │   ├── Defesa.png        # Frames para animação de defesa
+│   │   │   │   │   └── Morte.png         # Frames para animação de morte
+│   │   │   │   ├── Sahiku_Audio.wav      # Efeito sonoro específico de Sahiku (ex: som do golpe)
+│   │   │   │   ├── /GolpesEspeciais      # Sons de golpes especiais de Sahiku
+│   │   │   │   │   ├── Hadouken.wav      # Som do golpe especial "Hadouken"
+│   │   │   │   │   ├── Shoryuken.wav     # Som do golpe especial "Shoryuken"
+│   │   │   │   ├── Sahiku_Music.mp3      # Trilha sonora específica de Sahiku (pode ser música de fundo ou tema)
+│   │   │   │   └── Sahiku_Data.cs        # Dados específicos do personagem Sahiku (como vida, ataques, etc.)
+│   │   │   ├── /Ken                      # Pasta específica para o personagem Ken
+│   │   │   │   ├── Ken_Spritesheet.png    # Spritesheet do Ken
+│   │   │   │   ├── /Animações            # Pasta de animações de Ken
+│   │   │   │   │   ├── Ataque.png        # Frames para animação de ataque
+│   │   │   │   │   ├── Defesa.png        # Frames para animação de defesa
+│   │   │   │   │   └── Morte.png         # Frames para animação de morte
+│   │   │   │   ├── Ken_Audio.wav         # Efeito sonoro específico de Ken
+│   │   │   │   ├── /GolpesEspeciais      # Sons de golpes especiais de Ken
+│   │   │   │   │   ├── Hadouken.wav      # Som do golpe especial "Hadouken"
+│   │   │   │   │   ├── Shoryuken.wav     # Som do golpe especial "Shoryuken"
+│   │   │   │   ├── Ken_Music.mp3         # Trilha sonora específica de Ken
+│   │   │   │   └── Ken_Data.cs           # Dados específicos do personagem Ken
+│   │   ├── /Arenas                       # Sprites das arenas de batalha
+│   │   │   ├── Arena1_Background.png     # Fundo da primeira arena
+│   │   │   └── Arena2_Background.png     # Fundo da segunda arena
+│   │   ├── /Objetos                      # Sprites de objetos e power-ups (se houver)
+│   │   │   ├── PowerUp_Sprite.png        # Exemplo de sprite de power-up
+│   │   └── /UI                           # Sprites para interface do usuário (menus, barras de vida, etc.)
+│   │       ├── BarraVida.png             # Barra de vida do jogador
+│   │       ├── BarraEnergia.png         # Barra de energia
+│   │       └── MenuBackground.png       # Fundo do menu principal
+│   └── /Audio                            # Áudios do jogo
+│       ├── AtaqueSom.wav                 # Efeito sonoro de ataque (geral, se não for específico de personagem)
+│       ├── FundoMusical.mp3              # Música de fundo do jogo
+│       └── GolpeEspecial.wav            # Efeito sonoro do golpe especial (geral, se não for específico de personagem)
+│
+├── /Controllers
+│   ├── /CombatControllers                # Lógica de combate (movimento, ataque, etc.)
+│   │   ├── BattleController.cs           # Controlador do combate, que gerencia o fluxo entre os jogadores
+│   │   ├── PlayerCombatController.cs    # Controla as interações dos jogadores (movimentos, ataques, etc.)
+│   │   └── SpecialMoveController.cs     # Controla movimentos especiais de cada personagem (como Hadouken)
+│   ├── /MenuControllers                  # Lógica dos menus
+│   │   ├── MainMenuController.cs        # Lógica do menu principal
+│   │   └── PauseMenuController.cs       # Lógica do menu de pausa
+│   └── /GameControllers                  # Controla o fluxo geral do jogo
+│       └── GameManager.cs               # Controla o estado do jogo (início, pausa, fim, etc.)
+│
+├── /Models
+│   ├── /PlayerModels                     # Dados e atributos dos personagens
+│   │   └── Player.cs                     # Dados básicos do personagem (ex: vida, energia, pontos)
+│   ├── /GameModels                       # Dados gerais do jogo (ex: estágio, vitória, etc.)
+│   │   └── Stage.cs                      # Dados sobre o estágio de batalha
+│
+└── Program.cs                            # Ponto de entrada do jogo
